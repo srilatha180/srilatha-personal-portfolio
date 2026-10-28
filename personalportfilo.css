@@ -1,0 +1,98 @@
+.links nav a:hover{
+    background-color: yellow;
+      color: black !important;
+
+}
+.nav-link-custom{
+  padding:5px 10px;
+  transition: 0.3s;
+}
+.nav-link-custom:hover{
+  background-color: #a78bfa;
+  border-bottom: solid;
+}
+.hero{
+  background: linear-gradient(135deg,#312E81,#160018);
+    min-height: 330px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+#mybtn{
+  background-color: rgb(232, 10, 232);
+  border:1px solid #a78bfa;
+  transition: 0.3s;
+}
+#myBtn{
+  border:1px solid rgb(232, 10, 232);
+  transition: 0.3s;
+}
+#mybtn:hover{
+  background-color: #7c3aed;
+  
+}
+#myBtn:hover{
+  background-color: #7c3aed;
+  
+}
+.about {
+    background-color: rgb(223, 247, 223);
+    min-height: 450px;
+    margin-top: 8px;
+    padding: 10px 0;
+    margin-left: 3px;
+    width:1550px;
+   
+}
+
+#con{
+  background-color: rgb(223, 247, 223);
+}
+.education-card {
+    max-width: 550px;
+    min-height: 450px;
+    border-radius: 12px;
+}
+#con {
+    padding-left: 8px;
+    padding-right: 5px;
+}
+.skills{
+  background-color: #ccc2fa;
+  margin-top: 5px;
+}
+.skill-card {
+    background-color:azure;
+    border: 1px solid #DDD6FE;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(49, 46, 129, 0.15);
+}
+
+.projects {
+    background-color: #f1b0dd;
+    margin-top: 5px;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #DDD6FE;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(49, 46, 129, 0.15);
+}
+html {
+    scroll-behavior: smooth;
+}
+.contact{
+  background-color: rgb(249, 249, 179);
+}
+  
+
